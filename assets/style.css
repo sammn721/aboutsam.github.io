@@ -2,15 +2,15 @@
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-:root {
+/* :root {
     --sand: rgb(255, 214, 186);
     --stone: rgb(85, 91, 110);
     --sky: rgb(190, 227, 219);
-}
+} */
 
 html {
     color: var(--stone);
-    background-color: var(--sand);
+    /* background-color: var(--sand); */
 }
 
 /* body {
@@ -64,7 +64,7 @@ h2 {
 
 /* Section content */
 .sectionContent {
-    background-color: var(--sand);
+    /* background-color: var(--sand); */
     border-left: solid var(--stone);
     padding-left: 20px;
     margin-left: 10px;
@@ -144,34 +144,34 @@ h4 {
 }
 
 /* Mobile screens */
-/* @media screen and (max-width: 768px) { */
+@media screen and (max-width: 768px) {
     /* Body into column for mobile view */
-    /* body {
+    body {
         display: flex;
         flex-direction: column;
         align-items: center;
-    } */
+    }
     /* Padding to fill gap */
-    /* header {
+    header {
         padding: 0 0 10px;
         width: 100%;
-    } */
+    }
     /* Padding to center heading */
-    /* h1 {
+    h1 {
         padding: 5px 0 5px;
         width: 100%;
         text-align: center;
     }
     nav {
         margin: 0;
-    } */
+    }
     /* Bring it all together */
-    /* .headerSpace {
+    .headerSpace {
         align-items: center;
         flex-direction: column;
-    } */
+    }
     /* Centered cool subtitle */
-    /* .hero {
+    .hero {
         width: 100%;
         justify-content: center;
     }
@@ -211,4 +211,4 @@ h4 {
         display: flex;
         flex-direction: column;
     }
-} */
+}
