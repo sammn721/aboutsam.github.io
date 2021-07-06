@@ -13,44 +13,12 @@ html {
     background-color: var(--sand);
 }
 
-body {
+/* body {
     font-size: .9rem;
-}
+} */
 
 header {
     background-color: var(--stone);
-    padding: 10px 0 10px;
-}
-
-/* Name in header */
-h1 {
-    font-size: 2.5rem;
-    padding: 5px 5px 5px 50px;
-    background-color: var(--sky);
-}
-
-/* Navigation section */
-nav {
-    margin-right: 50px;
-}
-/* Navigation links */
-nav ul li {
-    display: inline-block;
-    font-size: 1.1rem;
-    border-bottom: solid var(--sky);
-    padding: 5px;
-}
-
-nav ul li a:link {
-    text-decoration: none;
-    color: var(--sky);
-}
-
-/* Spacing between h1 and nav */
-.headerSpace {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
 }
 
 /* Hero image */
@@ -176,34 +144,34 @@ h4 {
 }
 
 /* Mobile screens */
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) { */
     /* Body into column for mobile view */
-    body {
+    /* body {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
+    } */
     /* Padding to fill gap */
-    header {
+    /* header {
         padding: 0 0 10px;
         width: 100%;
-    }
+    } */
     /* Padding to center heading */
-    h1 {
+    /* h1 {
         padding: 5px 0 5px;
         width: 100%;
         text-align: center;
     }
     nav {
         margin: 0;
-    }
+    } */
     /* Bring it all together */
-    .headerSpace {
+    /* .headerSpace {
         align-items: center;
         flex-direction: column;
-    }
+    } */
     /* Centered cool subtitle */
-    .hero {
+    /* .hero {
         width: 100%;
         justify-content: center;
     }
@@ -243,4 +211,4 @@ h4 {
         display: flex;
         flex-direction: column;
     }
-}
+} */

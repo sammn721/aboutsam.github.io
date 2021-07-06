@@ -6,20 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Sam</title>
     <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="./assets/style.css">
 </head>
 <body>
     <!-- header section with name and links -->
-    <header class="headerSpace">
-    <h1>Sam Nielsen</h1>
+    <header class="navbar-fixed">
         <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-                <li><a href="https://sammn721.github.io" target="_blank">Resume</a></li>
-            </ul>
+            <div class="nav-wrapper">
+                <a href="https://sammn721.github.io" target="_self" class="brand-logo">Sam Nielsen</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#about-me">About Me</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact-me">Contact Me</a></li>
+                    <li><a href="https://sammn721.github.io" target="_blank">Resume</a></li>
+                </ul>
+            </div>
         </nav>
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact-me">Contact Me</a></li>
+            <li><a href="https://sammn721.github.io" target="_blank">Resume</a></li>
+        </ul>
     </header>
     <div class="hero">
         <p>Cool subtitle here!</p>
@@ -114,5 +124,8 @@
             </div>
         </section>
     </main>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
