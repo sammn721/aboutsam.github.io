@@ -1,10 +1,62 @@
-/* Hero image */
 .jumbotron {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    height: 250px;
+    height: 300px;
     background-image: url("images/IMG_1752.jpg");
     background-size: cover;
-    background-position: 0 100%;   
+    background-position: 0 100%;
+}
+
+.card {
+    display: flex;
+    flex: 0 0 calc(50% - 5px);
+    height: 100px;
+    border:solid var(--sky);
+    margin: 5px 0 5px;
+    align-items: flex-end;
+}
+
+/* Project 1 */
+.card:first-child {
+    display: flex;
+    flex-basis: 100%;
+    height:300px;
+}
+
+/* Project imgs */
+.cardImage {
+    min-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    object-position: 0 100%;
+    transition: opacity 0.3s;
+    opacity: .5;
+}
+
+.cardImage:hover {
+    opacity: 1;
+}
+
+/* Project 1 img */
+.cardImage:first-child {
+    object-position: 0 0%;
+    opacity: .2;
+}
+
+.cardImage:first-child:hover {
+    opacity: .5;
+}
+
+/* Project title */
+.cardName {
+    position: absolute;
+    padding: 10px;
+    background-color: var(--sky);
+    margin-bottom: 10px;
+}
+.caroImg img {
+    width: auto;
+    height:auto;
+    max-height:500px;
 }

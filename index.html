@@ -29,23 +29,61 @@
         </div>
     </nav>
     <div class="jumbotron">
-        <p>i'm just tryna stay afloat</p>
+        <p class="fs-5 me-3">i'm just tryna stay afloat</p>
     </div>
     <main class="container-fluid">
         <!-- about me section -->
-        <section id="about-me" class="row">
+        <section id="about-me" class="row mt-3">
         <div class="col-3">    
             <p class="text-end fs-2">About Me</p>
         </div>
-            <p class="col-9">Vanquish the impossible extraordinary claims require extraordinary evidence brain is the seed of intelligence billions upon billions two ghostly white figures in coveralls and helmets are softly dancing hearts of the stars. Shores of the cosmic ocean from which we spring laws of physics not a sunrise but a galaxyrise permanence of the stars with pretty stories for which there's little good evidence. Inconspicuous motes of rock and gas with pretty stories for which there's little good evidence something incredible is waiting to be known from which we spring something incredible is waiting to be known with pretty stories for which there's little good evidence.
+            <p class="col-9 ps-3 border-start border-4 border-dark">Vanquish the impossible extraordinary claims require extraordinary evidence brain is the seed of intelligence billions upon billions two ghostly white figures in coveralls and helmets are softly dancing hearts of the stars. Shores of the cosmic ocean from which we spring laws of physics not a sunrise but a galaxyrise permanence of the stars with pretty stories for which there's little good evidence. Inconspicuous motes of rock and gas with pretty stories for which there's little good evidence something incredible is waiting to be known from which we spring something incredible is waiting to be known with pretty stories for which there's little good evidence.
             </p>
         </section>
         <!-- work section -->
-        <section id="work" class="row">
-            <div class="sectionHeading">
-                <h2>Work</h2>
+        <section id="work" class="row mt-3">
+            <div class="col-3">
+                <h2 class="text-end fs-2">Work</h2>
             </div>
-            <div class="sectionContent">
+            <div id="carouselExampleCaptions" class="carousel slide col-9 ps-3 border-start border-4 border-dark" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active caroImg">
+                    <img src="./assets/images/IMG_1881.JPG" class="d-block w-100" alt="bird">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>READMEme</h5>
+                      <p>A README.md generator</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item caroImg">
+                    <img src="./assets/images/IMG_1883.JPG" class="d-block w-100" alt="synth">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Project 2</h5>
+                      <p>description</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item caroImg">
+                    <img src="./assets/images/IMG_1607.JPG" class="d-block w-100" alt="oreo balls">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Project 3</h5>
+                      <p>description</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+            <!-- <div class="col-9 ps-3 border-start border-4 border-dark">
                 <div  class="card">
                     <a href="https://sammn721.github.io/about-sammn721/" target="_blank"><img class="img-fluid" src="./assets/images/orig-portf.png" alt="Screenshot of this page's version 1.0"></a>
                     <div class="cardName">
@@ -81,7 +119,7 @@
                         <h4>Platform</h4>
                     </div>
                 </a>
-            </div>
+            </div> -->
         </section>
         <!-- contact section -->
         <section id="contact" class="sectionRow">
